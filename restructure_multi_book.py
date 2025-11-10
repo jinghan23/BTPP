@@ -30,27 +30,6 @@ book_index_html = '''<!DOCTYPE html>
     </div>
 
     <script src="../../js/main.js"></script>
-    <script>
-        // Update loadChapters to use correct path
-        async function loadChapters() {
-            try {
-                const response = await fetch('data/chapters.json');
-                const chapters = await response.json();
-                const container = document.getElementById('chapters-list');
-
-                chapters.forEach(chapter => {
-                    const card = createChapterCard(chapter);
-                    container.appendChild(card);
-                });
-            } catch (error) {
-                console.error('Error loading chapters:', error);
-                document.getElementById('chapters-list').innerHTML =
-                    '<p>加载章节列表失败，请稍后再试。</p>';
-            }
-        }
-
-        loadChapters();
-    </script>
 </body>
 </html>
 '''
