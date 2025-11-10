@@ -1,0 +1,23 @@
+新的目录结构：
+
+docs/
+├── index.html              # 书籍列表页面
+├── books/
+│   └── next-level/         # 第一本书（当前的书）
+│       ├── index.html      # 该书的章节列表
+│       ├── chapters/       # 章节HTML
+│       ├── data/           # chapters.json
+│       └── audio/          # 音频文件
+├── css/
+│   └── style.css          # 全局样式
+└── js/
+    └── main.js            # 全局JS
+
+output/
+├── books/
+│   └── next-level/        # 对应每本书的处理文件
+│       ├── chapters/      # 提取的原文
+│       ├── translations/  # 翻译
+│       ├── summaries/     # 摘要
+│       └── audio/         # 音频
+└── ...

@@ -3,22 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Next Level - 中文译本</title>
+    <title>书籍翻译项目 - Book Translation Project</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .books-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .book-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .book-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+        }
+
+        .book-cover {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .book-info {
+            padding: 20px;
+        }
+
+        .book-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #2c3e50;
+        }
+
+        .book-subtitle {
+            font-size: 14px;
+            color: #7f8c8d;
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+
+        .book-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 16px;
+            padding-top: 16px;
+            border-top: 1px solid #ecf0f1;
+            font-size: 13px;
+            color: #95a5a6;
+        }
+
+        .book-status {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            background: #3498db;
+            color: white;
+        }
+
+        .book-status.completed {
+            background: #27ae60;
+        }
+
+        .book-status.in-progress {
+            background: #f39c12;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Next Level</h1>
-            <p class="subtitle">Your Guide to Kicking Ass, Feeling Great, and Crushing Goals Through Menopause and Beyond</p>
-            <p class="author">by Stacy T. Sims, PhD & Selene Yeager</p>
+            <h1>📚 书籍翻译项目</h1>
+            <p class="subtitle">AI驱动的书籍翻译与音频生成平台</p>
         </header>
 
-        <div id="chapters-list">
-            <!-- Chapters will be loaded here by JavaScript -->
+        <div class="books-grid" id="books-list">
+            <!-- 书籍列表将通过JavaScript加载 -->
         </div>
     </div>
 
-    <script src="js/main.js"></script>
+    <script>
+        async function loadBooks() {
+            try {
+                const response = await fetch('books.json');
+                const books = await response.json();
+                const container = document.getElementById('books-list');
+
+                books.forEach(book => {
+                    const card = document.createElement('a');
+                    card.className = 'book-card';
+                    card.href = `books/${book.id}/`;
+
+                    const statusClass = book.status === '完成' ? 'completed' : 'in-progress';
+
+                    card.innerHTML = `
+                        <div class="book-cover">${book.title}</div>
+                        <div class="book-info">
+                            <div class="book-title">${book.title}</div>
+                            <div class="book-subtitle">${book.subtitle}</div>
+                            <p style="color: #7f8c8d; font-size: 14px;">${book.description}</p>
+                            <div class="book-meta">
+                                <span>📖 ${book.chapters} 章节 · 🌐 ${book.language}</span>
+                                <span class="book-status ${statusClass}">${book.status}</span>
+                            </div>
+                        </div>
+                    `;
+
+                    container.appendChild(card);
+                });
+            } catch (error) {
+                console.error('加载书籍列表失败:', error);
+                document.getElementById('books-list').innerHTML =
+                    '<p>加载失败，请稍后再试。</p>';
+            }
+        }
+
+        loadBooks();
+    </script>
 </body>
 </html>
