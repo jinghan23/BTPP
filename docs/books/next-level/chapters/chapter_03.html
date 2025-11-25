@@ -44,10 +44,59 @@
 
         <div class="audio-player">
 <h3>🔊 章节音频</h3>
-<audio controls>
-  <source src="../audio/chapter_03_full.mp3" type="audio/mpeg">
-  您的浏览器不支持音频播放。
-</audio>
+<div class="audio-parts">
+  <audio id="audioPlayer" controls style="width: 100%; margin-bottom: 10px;">
+    <source id="audioSource" src="../audio/chapter_03_part01.mp3" type="audio/mpeg">
+    您的浏览器不支持音频播放。
+  </audio>
+  <div class="part-selector" style="display: flex; gap: 8px; flex-wrap: wrap;">
+    <button class="part-btn active" data-part="1" style="padding: 6px 12px; border: 1px solid #ddd; border-radius: 4px; background: #667eea; color: white; cursor: pointer;">Part 1</button>
+    <button class="part-btn" data-part="2" style="padding: 6px 12px; border: 1px solid #ddd; border-radius: 4px; background: white; color: #333; cursor: pointer;">Part 2</button>
+    <button class="part-btn" data-part="3" style="padding: 6px 12px; border: 1px solid #ddd; border-radius: 4px; background: white; color: #333; cursor: pointer;">Part 3</button>
+    <button class="part-btn" data-part="4" style="padding: 6px 12px; border: 1px solid #ddd; border-radius: 4px; background: white; color: #333; cursor: pointer;">Part 4</button>
+  </div>
+</div>
+<script>
+const audioPlayer = document.getElementById('audioPlayer');
+const audioSource = document.getElementById('audioSource');
+const partBtns = document.querySelectorAll('.part-btn');
+let currentPart = 1;
+
+// Switch audio part
+function loadPart(part) {
+  audioSource.src = `../audio/chapter_03_part0${part}.mp3`;
+  audioPlayer.load();
+  audioPlayer.play();
+  currentPart = part;
+
+  // Update button styles
+  partBtns.forEach(btn => {
+    if (btn.dataset.part == part) {
+      btn.style.background = '#667eea';
+      btn.style.color = 'white';
+      btn.classList.add('active');
+    } else {
+      btn.style.background = 'white';
+      btn.style.color = '#333';
+      btn.classList.remove('active');
+    }
+  });
+}
+
+// Add click handlers
+partBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    loadPart(parseInt(btn.dataset.part));
+  });
+});
+
+// Auto-play next part when current ends
+audioPlayer.addEventListener('ended', () => {
+  if (currentPart < 4) {
+    loadPart(currentPart + 1);
+  }
+});
+</script>
 </div>
 
 
