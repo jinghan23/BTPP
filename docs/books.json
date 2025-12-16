@@ -9,5 +9,16 @@
     "chapters": 20,
     "language": "中文",
     "status": "进行中"
+  },
+  {
+    "id": "roar-test",
+    "title": "ROAR: Women's Fitness",
+    "subtitle": "How to Match Your Food and Fitness to Your Unique Female Physiology",
+    "author": "Stacy T. Sims, PhD",
+    "description": "女性运动生理与营养完全指南中文译本",
+    "cover": "books/roar-test/cover.jpg",
+    "chapters": 22,
+    "language": "中文",
+    "status": "已完成"
   }
 ]
