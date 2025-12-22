@@ -20,5 +20,27 @@
     "chapters": 22,
     "language": "中文",
     "status": "已完成"
+  },
+  {
+    "id": "privilege-lost",
+    "title": "Privilege Lost",
+    "subtitle": "Who Leaves the Upper Middle Class and How They Fall",
+    "author": "Marianne Cooper",
+    "description": "上中产阶层下行流动研究中文译本",
+    "cover": "books/privilege-lost/cover.jpg",
+    "chapters": 19,
+    "language": "中文",
+    "status": "已完成"
+  },
+  {
+    "id": "feel-the-fear",
+    "title": "Feel the Fear... and Do It Anyway",
+    "subtitle": "Dynamic Techniques for Turning Fear, Indecision and Anger into Power, Action and Love",
+    "author": "Susan Jeffers",
+    "description": "恐惧管理与个人成长指南中文译本",
+    "cover": "books/feel-the-fear/cover.jpg",
+    "chapters": 22,
+    "language": "中文",
+    "status": "已完成"
   }
 ]
