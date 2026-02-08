@@ -1,162 +1,178 @@
 [
   {
-    "number": 3,
+    "number": 1,
     "title": "Dedication",
+    "summary": "暂无摘要",
+    "hasAudio": false,
+    "wordCount": 72,
+    "file": "chapter_01.html"
+  },
+  {
+    "number": 2,
+    "title": "Contents",
+    "summary": "暂无摘要",
+    "hasAudio": false,
+    "wordCount": 143,
+    "file": "chapter_02.html"
+  },
+  {
+    "number": 3,
+    "title": "Introduction: Opening the Door",
     "summary": "本章为献词，作者将全书献给已逝的母亲珍妮与父亲里昂，以及如珍宝般的丈夫马克·谢尔默丁。文字核心是对生命与爱的珍贵馈赠的深切感恩，强调亲情与伴侣之爱在其生命中的滋养与支撑，并表达“我真的很有福”的由衷幸福感。\n\n重要启示在于：以感恩的心铭记爱与陪伴的力量，认可家人与伴侣对个人成长与幸福的深远影响。实践层面的启发包括：主动表达对亲友的感激与敬意；在日常中培养与守护带来喜悦的关系；以感恩视角看待生命中的...",
     "hasAudio": false,
-    "wordCount": 81,
+    "wordCount": 1961,
     "file": "chapter_03.html"
   },
   {
     "number": 4,
-    "title": "Contents",
+    "title": "1. What Are You Afraid of . . . and Why?",
     "summary": "本章以目录的形式勾勒出全书的核心脉络：从“打开那扇门”开始，先直面“你在害怕什么、为什么”，强调恐惧并不会凭空消失，与其抗拒不如承认它的存在并把“痛苦转化为力量”。作者主张把恐惧当作自己的责任与资源——“无论你愿不愿意，它都是你的”——并以重建乐观为底色，逐步走向更高的自我效能。随后话题延展到外部阻力（当“他们”不希望你成长时）与内部抉择（如何做出不会输的决定），以及检视“完整人生”的真实度、练习...",
     "hasAudio": false,
-    "wordCount": 146,
+    "wordCount": 3035,
     "file": "chapter_04.html"
   },
   {
     "number": 5,
-    "title": "Introduction: Opening the Door",
+    "title": "2. Can’t You Make It Go Away?",
     "summary": "本章指出恐惧几乎渗透生活的方方面面，但它更多是“教育问题”而非病理问题：通过重新教育心智，我们可以把恐惧视为生活的常态事实，而不是成功的障碍，从“痛苦、僵住、抑郁”转向“力量、能量、兴奋”。作者以自身经历为例：长期被脑中的消极声音支配，直至一次“够了”的自我对峙，触及内在强大的声音，随后通过阅读、工作坊与教学，将“恐惧”的处理从治疗转向教育实践，证实思维转变能切实重塑人生。她的学生们也印证并丰富了...",
     "hasAudio": false,
-    "wordCount": 2063,
+    "wordCount": 4653,
     "file": "chapter_05.html"
   },
   {
     "number": 6,
-    "title": "1. What Are You Afraid of . . . and Why?",
+    "title": "3. From Pain to Power",
     "summary": "本章以一堂“恐惧课”的课堂为起点：学生们各自讲述害怕跨职业、离婚、公开出柜、被拒绝、衰老等具体困境。随着坦诚分享，紧张化解、连结生成，大家体会到两点：其一，害怕并非孤例；其二，脆弱的坦露反而让人更可亲、更有力量。作者指出，表面情境虽各异，本质共同点是：恐惧让人无法按自己期望的方式体验生活。\n\n核心框架是“恐惧的三层级”。第一层级是具体事件或行动的恐惧（会发生的事如变老、疾病、死亡、财务不稳；需要采...",
     "hasAudio": false,
-    "wordCount": 3129,
+    "wordCount": 6646,
     "file": "chapter_06.html"
   },
   {
     "number": 7,
-    "title": "2. Can’t You Make It Go Away?",
+    "title": "4. Whether You Want It or Not . . . It’s Yours",
     "summary": "本章围绕“恐惧不会自己消失”展开，指出许多人（如摩根）习惯用“当我不再害怕/当我感觉更好再去做”的错序逻辑把自己困住。作者以亲身经历说明，恐惧不会因等待而退场，它是成长的伴生物；只有在真正去做的过程中，某一具体情境的恐惧才会逐渐减弱；而自信和自我价值感也来自行动后的成就感，而非事先的自我感觉良好。此外，恐惧是普遍的人类体验——每当走出舒适区人人都会怕，哪怕像珊达·莱梅斯这样成功的人，也需通过“对机...",
     "hasAudio": false,
-    "wordCount": 4710,
+    "wordCount": 9400,
     "file": "chapter_07.html"
   },
   {
     "number": 8,
-    "title": "3. From Pain to Power",
+    "title": "5. The Return of the Optimist",
     "summary": "本章的核心观点是：恐惧不是问题，关键在于我们以何种内在状态面对它。作者区分了“痛苦态”（无助、沮丧、瘫痪）与“有力量态”（选择、能量、行动），并强调应从痛苦转向力量，让恐惧变得无关紧要。这里的“力量”不是对他人的控制，而是基于健康自我之爱的内在掌控：如何看世界、如何回应情境、为成长采取行动、创造喜悦与满足、去爱与去行动。爱与力量相辅相成；没有内在力量，爱会被恐惧与匮乏扭曲。为化解对“力量”的心理冲...",
     "hasAudio": false,
-    "wordCount": 6935,
+    "wordCount": 7314,
     "file": "chapter_08.html"
   },
   {
     "number": 9,
-    "title": "4. Whether You Want It or Not . . . It’s Yours",
+    "title": "6. When “They” Don’t Want You to Grow",
     "summary": "本章核心在于揭示“受害者”心态的隐蔽性与破坏力：许多人自以为在为生活负责，实际却把自己的体验归咎于外界（伴侣、孩子、老板、经济等），从而把力量拱手相让，在“痛苦到力量”的光谱上越滑越向左，更难应对恐惧。作者强调一个关键转念：你是自己生命体验的成因——至少是对发生之事的反应的成因。承认自己也在“选择”（有意识或无意识）维持现状虽不舒服，却是最大的福祉；因为能创造痛苦的人，也能创造快乐。\n\n为此，作者...",
     "hasAudio": false,
-    "wordCount": 9544,
+    "wordCount": 8694,
     "file": "chapter_09.html"
   },
   {
     "number": 10,
-    "title": "5. The Return of the Optimist",
+    "title": "7. How to Make a No-Lose Decision",
     "summary": "本章倡导为“乐观”正名：社会常把积极视为“不现实”，而把消极当作“现实”，但这是一种未经检验的偏见。塞涅卡早说过“我们更多在想象中受苦”，事实是多数担忧不会成真。与其执着于阴霾，不如选择能带来幸福与能量的看法；更关键的不是哪种更“现实”，而是既然可以快乐，为什么要痛苦？我们的态度会自我实现，决定我们感知与创造的“现实”。\n\n作者用两位失去伴侣的女性作对照：詹妮弗沉溺悲剧、预设“没人会爱我、没人会雇...",
     "hasAudio": false,
-    "wordCount": 7566,
+    "wordCount": 9907,
     "file": "chapter_10.html"
   },
   {
     "number": 11,
-    "title": "6. When “They” Don’t Want You to Grow",
+    "title": "8. How Whole Is Your “Whole Life”?",
     "summary": "本章指出，当你采纳更乐观的态度并付诸改变时，周围的人常会因互动模式被打破而不安甚至抵触，尤其在你最需要支持时更显刺痛。核心教训是：从痛苦走向力量需有强而有力、积极进取、鼓舞人心的支持系统。能量会“传染”，负面相处让人耗竭，积极相伴使人轻盈；物以类聚，随着你成长，你会自然吸引更积极的人。面对旧友的愧疚不必过度，他们会找到自己的圈子，或被你的新能量唤醒并同行；同时务必扩展支持面，纳入走在你前面的“桥梁...",
     "hasAudio": false,
-    "wordCount": 8489,
+    "wordCount": 6199,
     "file": "chapter_11.html"
   },
   {
     "number": 12,
-    "title": "7. How to Make a No-Lose Decision",
+    "title": "9. Just Nod Your Head—Say Yes!",
     "summary": "本章指出，阻碍我们前进的并非选择本身，而是对“做错决定”和“必须完美”的恐惧。不选择也是一种选择——让自己错过生命的丰盛。传统的“无胜模型”让我们在决策前后都被焦虑与反复自我怀疑绑架：试图预测未来、控制外部、事后懊悔与担心逆转，最终陷入痛苦与瘫痪。作者提出“无输模式”：把每条路径都视为充满收获的机会——无论结果如何，都能体验新事物、学习与成长、更清楚自己是谁和想要什么；如此一来，“错误决定”在心理...",
     "hasAudio": false,
-    "wordCount": 9961,
+    "wordCount": 7115,
     "file": "chapter_12.html"
   },
   {
     "number": 13,
-    "title": "8. How Whole Is Your “Whole Life”?",
+    "title": "10. Choosing Love and Trust",
     "summary": "本章提出“全人生”的观念：当我们把自我认同与情感几乎完全捆绑在单一领域（伴侣、事业、孩子、社交媒体）时，一旦该领域动摇或失去，就会触发极端的匮乏与崩溃。依赖的副作用随之而来——在亲密关系里表现为愤怒、嫉妒、怨恨与纠缠，在工作中表现为防卫、抢功与创意受限，在为人父母上则成为控制与过度保护，最终伤人亦伤己。作者以“网格”隐喻说明：把一个格子做成“唯一的大写项”会让生命失衡；当它消失，整体几乎归零。反之...",
     "hasAudio": false,
-    "wordCount": 6389,
+    "wordCount": 9988,
     "file": "chapter_13.html"
   },
   {
     "number": 14,
-    "title": "9. Just Nod Your Head—Say Yes!",
+    "title": "11. Filling the Inner Void",
     "summary": "本章核心主张是“对你的宇宙说‘是’”：在生命的流动与不可控中，练习接纳而非抗拒，把注意力从“事情应该如何”转向“此刻可能带来什么”。作者借布芮妮·布朗提出的“预感性的喜悦”提醒我们：对未知与变化的恐惧常让人预设最坏，从而破坏当下的快乐；而“说是”是一种脆弱却强大的选择，意味着信任自己与生命，放下紧绷、打开视角。说“是”让我们成为生命的创造者，促进情绪与生理的松弛与联结；说“不”则固化受害者心态，带...",
     "hasAudio": false,
-    "wordCount": 7300,
+    "wordCount": 9869,
     "file": "chapter_14.html"
   },
   {
     "number": 15,
-    "title": "10. Choosing Love and Trust",
+    "title": "12. There Is Plenty of Time",
     "summary": "本章通过一个简单作业“回家对另一半说谢谢”，揭示多数人并不真正懂得付出，而是在隐秘的交换逻辑中运作：我为你做这个，你应回报我那个。将“获取”作为“付出”的动力，会滋生“我得到的够不够”的恐惧，继而产生控制、愤怒与怨怨。作者指出，真正的付出是让人更好的利他行为，它需要成熟与练习——成熟意味着为自己的生命体验负责、不把一切视为理所当然、信守承诺；而付出本身是一项后天习得的技能。多数人因自我欺骗与惯性，...",
     "hasAudio": false,
-    "wordCount": 10165,
+    "wordCount": 3306,
     "file": "chapter_15.html"
   },
   {
     "number": 16,
-    "title": "11. Filling the Inner Void",
+    "title": "Acknowledgments",
     "summary": "本章指出，许多人感到的孤独与空虚源自与“高我”（灵性自我）失联，而非外在条件的不足。高我承载创造力、直觉、信任、爱与喜悦等美德，能带来内在的充实与安定；与之相对的“低我”与内在“话匣子”则缠绕恐惧、匮乏与负面评判，制造分离感与不满足。作者强调“灵性”并非宗教，而是人人内在可及的爱与丰盛的维度；当我们被美、给予或群体合一（如奥运闭幕式）深深触动，便是与高我对齐的片刻。由低我激发的力量短暂且会加剧迷失...",
     "hasAudio": false,
-    "wordCount": 10227,
+    "wordCount": 346,
     "file": "chapter_16.html"
   },
   {
     "number": 17,
-    "title": "12. There Is Plenty of Time",
+    "title": "Bibliography",
     "summary": "本章强调“时间绰绰有余”，真正的成长靠耐心与信任，而非急躁的“速成”。急躁只是对自己的惩罚，会制造压力与恐惧；改变常常在看不见的地方悄然发生，如同种子静静发芽、余烬忽然跃出火苗。作者提出“一切都在完美地发生”：人生的经验要么来自高我、要么是来教会我们某些东西的课程；当我们以学习者的心态拥抱困难，受害者意识便会退场。工具、课程与练习可以给予方法，但需要用一生实践与掌握。\n\n走在高我的道路上，用感受作...",
     "hasAudio": false,
-    "wordCount": 3374,
+    "wordCount": 1638,
     "file": "chapter_17.html"
   },
   {
     "number": 18,
-    "title": "Acknowledgments",
+    "title": "About the Author",
     "summary": "本章是一份由衷的致谢，作者将自己的成长与作品的问世归功于一支“啦啦队”式的支持网络：包括出版社与经纪人的坚守与推动、导师与同事的信任与鼓励、开放包容的教学平台及社群、学生的积极参与，以及朋友与家人的长期陪伴和理解。她特别强调这些人和机构为她的恐惧相关理念提供了可实践、可传播的土壤，使原版在35年前得以出版，也让她在每一步都有人为她喝彩与托举。\n\n由此传达的核心理念是：成功并非孤行，勇气与持续前行往...",
     "hasAudio": false,
-    "wordCount": 376,
+    "wordCount": 144,
     "file": "chapter_18.html"
   },
   {
     "number": 19,
-    "title": "Bibliography",
+    "title": "Praise",
     "summary": "本章是一份跨越心理学、灵性、自助与身心疗愈的精选书目清单，勾勒出作者自1987年以来的内在成长地图，并补充了较新的资源。其核心主旨是“整合与实践”：从心理综合与自我实现（Assagioli、Ferrucci），到在转折与不确定中寻找意义与选择（Frankl、Sheehy）；从以脆弱培育韧性（Brené Brown）、以爱替代恐惧（Jampolsky、奇迹课程），到以积极心态与成功原则将愿景落地（H...",
     "hasAudio": false,
-    "wordCount": 1484,
+    "wordCount": 246,
     "file": "chapter_19.html"
   },
   {
     "number": 20,
-    "title": "About the Author",
+    "title": "Also by Susan Jeffers, PhD",
     "summary": "本章介绍了自助领域的权威作者 Susan Jeffers（苏珊·杰弗斯），其作品在全球一百多个国家出版、译成数十种语言，被《伦敦时报》誉为“自助女王”。她的代表作《直面恐惧……然后去做》销量超过一千五百万册，另有《直面恐惧……以及更进一步》《自信小书》《人生如此宏大！》等畅销书。尽管她于2012年去世，但其热情、爱与洞见至今仍持续影响并激励读者。\n\n从内容主题看，她的思想核心围绕直面恐惧并采取行动...",
     "hasAudio": false,
-    "wordCount": 130,
+    "wordCount": 407,
     "file": "chapter_20.html"
   },
   {
     "number": 21,
-    "title": "Praise",
+    "title": "Copyright",
     "summary": "本章汇集了来自作者、媒体与刊物对《感受恐惧……仍要去做》的高度评价。整体共识是：这本书“非读不可”，是提升个人力量与勇气的首选读物，能直接呼唤每个人内在的勇敢之魂，带来安心、积极的阅读体验。赞誉强调其不仅鼓舞人心，更提供清晰可行的路径，让读者在面对恐惧与人生问题时，不再停滞。\n\n关键点在于本书的实用性与可执行性：不同于空泛的自助手册，它给出合乎常理、智慧可靠的建议，辅以面向心灵的常识性训练与练习，...",
     "hasAudio": false,
-    "wordCount": 252,
+    "wordCount": 228,
     "file": "chapter_21.html"
   },
   {
     "number": 22,
-    "title": "Also by Susan Jeffers, PhD",
+    "title": "About the Publisher",
     "summary": "本章概览了苏珊·杰弗斯博士的多部作品与系列，核心围绕“直面恐惧”的方法论，强调把恐惧、犹豫与愤怒转化为力量、行动与爱。除《直面恐惧……并超越》《直面恐惧……依然去做》与恋爱指南外，还包括90天的实践规划手册，及关于主动联结、拥抱不确定、停止挣扎并与生命共舞等主题的著作，贯穿的理念是以勇气与选择感提升自信与内在平静，改善亲密关系与职场联结，活出更丰盈的人生。\n\n实用层面，她的“无惧系列”肯定语与“内...",
     "hasAudio": false,
-    "wordCount": 387,
+    "wordCount": 193,
     "file": "chapter_22.html"
   },
   {
@@ -164,7 +180,7 @@
     "title": "Copyright",
     "summary": "本章为版权与使用声明，核心信息是本电子书文本受国际及泛美版权公约保护，所有权归 Susan Jeffers 博士及 Jeffers/Shelmerdine 家族信托所有。读者在支付费用后仅获得非独占、不可转让的屏幕访问与阅读权；未经 HarperCollins e-books 明确书面许可，任何形式的复制、传播、下载、反编译、逆向工程，或存入/导入信息存储与检索系统均被禁止。“感受恐惧……然后依然...",
     "hasAudio": false,
-    "wordCount": 226,
+    "wordCount": 221,
     "file": "chapter_23.html"
   },
   {
@@ -172,7 +188,7 @@
     "title": "About the Publisher",
     "summary": "本章以目录形式列出哈珀柯林斯在六个国家/地区的分支机构及其联系信息，涵盖澳大利亚、加拿大、印度、新西兰、英国与美国的公司名称、详细地址和官网链接，体现出版社的全球化布局与本地化服务。核心要点是为读者、作者、书商与媒体提供清晰、便捷的沟通渠道，展示跨区域运营体系与信息获取入口。\n\n实用启示在于：根据所在国家优先使用对应官网与地址进行咨询、购书、售后或商务合作；联系前先查看官网的最新指南（如投稿要求、...",
     "hasAudio": false,
-    "wordCount": 197,
+    "wordCount": 177,
     "file": "chapter_24.html"
   }
 ]
