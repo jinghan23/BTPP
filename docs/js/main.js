@@ -18,12 +18,18 @@ async function loadChapters() {
 }
 
 function createChapterCard(chapter) {
-    const card = document.createElement('a');
+    const card = document.createElement('div');
     card.className = 'chapter-card';
-    card.href = `chapters/chapter_${String(chapter.number).padStart(2, '0')}.html`;
+    card.style.cursor = 'pointer';
+    card.onclick = () => location.href = `chapters/chapter_${String(chapter.number).padStart(2, '0')}.html`;
 
-    const title = document.createElement('h2');
-    title.innerHTML = `<span class="chapter-number">第 ${chapter.number} 章</span> ${chapter.title}`;
+    const number = document.createElement('div');
+    number.className = 'chapter-number';
+    number.textContent = `第 ${chapter.number} 章`;
+
+    const title = document.createElement('div');
+    title.className = 'chapter-title';
+    title.textContent = chapter.title;
 
     const summary = document.createElement('div');
     summary.className = 'chapter-summary';
@@ -34,7 +40,7 @@ function createChapterCard(chapter) {
 
     if (chapter.hasAudio) {
         const audioIcon = document.createElement('span');
-        audioIcon.innerHTML = '🔊 有音频';
+        audioIcon.textContent = '🔊 有音频';
         meta.appendChild(audioIcon);
     }
 
@@ -42,6 +48,7 @@ function createChapterCard(chapter) {
     wordCount.textContent = `📝 ${chapter.wordCount || 'N/A'} 字`;
     meta.appendChild(wordCount);
 
+    card.appendChild(number);
     card.appendChild(title);
     card.appendChild(summary);
     card.appendChild(meta);
