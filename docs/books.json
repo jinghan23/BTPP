@@ -42,5 +42,38 @@
     "chapters": 22,
     "language": "中文",
     "status": "已完成"
+  },
+  {
+    "id": "indebted",
+    "title": "Indebted",
+    "subtitle": "How Families Make College Work at Any Cost",
+    "author": "Caitlin Zaloom",
+    "description": "扎鲁姆通过160多位学生与家长的访谈，揭示美国中产家庭为让孩子上大学不断举债的情感与伦理纠缠。",
+    "cover": "books/indebted/cover.jpg",
+    "chapters": 15,
+    "language": "中文",
+    "status": "已完成"
+  },
+  {
+    "id": "lora-paper",
+    "title": "LoRA: Low-Rank Adaptation",
+    "subtitle": "Low-Rank Adaptation of Large Language Models",
+    "author": "Jinghan Zhang, Shiqi Chen, Junteng Liu & Junxian He",
+    "description": "介绍如何在参数空间用线性算术操作组合 LoRA/PEFT 模块，零训练地融合技能与去除不需要的行为。",
+    "cover": "books/lora-paper/cover.jpg",
+    "chapters": 1,
+    "language": "中文",
+    "status": "已完成"
+  },
+  {
+    "id": "paying-for-the-party",
+    "title": "Paying for the Party",
+    "subtitle": "How College Maintains Inequality",
+    "author": "Elizabeth A. Armstrong & Laura T. Hamilton",
+    "description": "Armstrong 与 Hamilton 通过中西部公立大学的派对路径，揭示高校如何在社交文化中持续重塑阶层。",
+    "cover": "books/paying-for-the-party/cover.jpg",
+    "chapters": 25,
+    "language": "中文",
+    "status": "已完成"
   }
 ]

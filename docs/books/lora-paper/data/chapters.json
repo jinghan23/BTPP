@@ -1,0 +1,10 @@
+[
+  {
+    "number": 1,
+    "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+    "summary": "本章提出一种在权重空间中用线性算术运算组合参数高效模块（PEM）的无训练方法，旨在把不同数据分布和任务上学到的技能以模块化方式灵活融合。核心做法是为 LoRA 与(IA)3 这两类主流 PEFT 架构定义“加法”和“取反”两个算子：加法用于聚合与共享技能（如多任务与分布泛化），取反用于从底层预训练模型中移除某些不期望的能力（如去学习与去毒化）。在此基础上，进一步通过线性组合实现更丰富的“类比式”技...",
+    "hasAudio": false,
+    "wordCount": 1993,
+    "file": "chapter_01.html"
+  }
+]
