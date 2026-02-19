@@ -55,17 +55,6 @@
     "status": "已完成"
   },
   {
-    "id": "lora-paper",
-    "title": "LoRA: Low-Rank Adaptation",
-    "subtitle": "Low-Rank Adaptation of Large Language Models",
-    "author": "Jinghan Zhang, Shiqi Chen, Junteng Liu & Junxian He",
-    "description": "介绍如何在参数空间用线性算术操作组合 LoRA/PEFT 模块，零训练地融合技能与去除不需要的行为。",
-    "cover": "books/lora-paper/cover.jpg",
-    "chapters": 1,
-    "language": "中文",
-    "status": "已完成"
-  },
-  {
     "id": "paying-for-the-party",
     "title": "Paying for the Party",
     "subtitle": "How College Maintains Inequality",
