@@ -64,5 +64,49 @@
     "chapters": 25,
     "language": "中文",
     "status": "已完成"
+  },
+  {
+    "id": "dont-shoot-the-dog",
+    "title": "Don’t Shoot the Dog",
+    "subtitle": "",
+    "author": "Karen Pryor",
+    "description": "",
+    "cover": "",
+    "chapters": 3,
+    "language": "中文",
+    "status": "已完成"
+  },
+  {
+    "id": "unequal-childhoods",
+    "title": "Unequal Childhoods",
+    "subtitle": "",
+    "author": "Annette Lareau",
+    "description": "",
+    "cover": "",
+    "chapters": 30,
+    "language": "中文",
+    "status": "已完成"
+  },
+  {
+    "id": "yuanquan",
+    "title": "源泉",
+    "subtitle": "",
+    "author": "Ayn Rand",
+    "description": "",
+    "cover": "",
+    "chapters": 6,
+    "language": "中文",
+    "status": "已完成"
+  },
+  {
+    "id": "atlas-shrugged",
+    "title": "阿特拉斯耸耸肩",
+    "subtitle": "",
+    "author": "Ayn Rand",
+    "description": "",
+    "cover": "",
+    "chapters": 36,
+    "language": "中文",
+    "status": "已完成"
   }
 ]
