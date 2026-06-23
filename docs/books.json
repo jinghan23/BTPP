@@ -108,5 +108,16 @@
     "chapters": 36,
     "language": "中文",
     "status": "已完成"
+  },
+  {
+    "id": "concise-48-laws-of-power",
+    "title": "The Concise 48 Laws of Power",
+    "subtitle": "权力的48条法则精简版",
+    "author": "Robert Greene",
+    "description": "罗伯特·格林关于权力策略与人际博弈的48条法则中文译本。",
+    "cover": "",
+    "chapters": 101,
+    "language": "中文",
+    "status": "已完成"
   }
 ]
